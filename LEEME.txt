@@ -1,0 +1,20 @@
+CAJA SÚPER - APP INSTALABLE
+
+Contenido: index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png
+
+1) Publicar la carpeta (las apps instalables necesitan HTTPS):
+   - Netlify: entra a app.netlify.com/drop y arrastra esta carpeta. Te da una dirección https.
+   - o GitHub Pages / Cloudflare Pages / cualquier hosting con HTTPS.
+
+2) Instalar en el teléfono:
+   - Android (Chrome): abre la dirección, menú de tres puntos > "Instalar aplicación".
+   - iPhone (Safari): botón Compartir > "Agregar a pantalla de inicio".
+   - PC (Chrome/Edge): icono de instalar en la barra de direcciones.
+
+3) Escáner: la primera vez el navegador pide permiso de cámara. Lee códigos de barras y QR.
+   Si la cámara en vivo falla, usa "Tomar foto del código".
+
+Notas:
+ - Los datos se guardan en el navegador de cada dispositivo (no se sincronizan entre teléfonos).
+   Usa Ajustes > Exportar respaldo con frecuencia.
+ - Funciona sin internet después de la primera carga (el lector de QR en iPhone necesita internet la primera vez).
